@@ -1,0 +1,9 @@
+.nested {
+  .my-custom-scss-tailwind-class {
+    @apply bg-pink-400;
+  }
+
+  .my-custom-scss-class {
+    background-color: pink;
+  }
+}

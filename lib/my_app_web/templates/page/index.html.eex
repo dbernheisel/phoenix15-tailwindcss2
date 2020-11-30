@@ -1,6 +1,11 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <button class="my-custom-class">Test @layer</button>
 
+<div class="nested">
+  <button class="my-custom-scss-tailwind-class">Test scss class</button>
+  <button class="my-custom-scss-class">Test tailwind in imported scss</button>
+</div>
+
 <div class="py-12 bg-white">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="lg:text-center">
