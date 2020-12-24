@@ -1,9 +1,10 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
-<button class="my-custom-class">Test @layer</button>
+<button class="my-custom-tailwind-class">Test @layer</button>
+<button class="my-custom-class">Test normal css</button>
 
 <div class="nested">
-  <button class="my-custom-scss-tailwind-class">Test scss class</button>
-  <button class="my-custom-scss-class">Test tailwind in imported scss</button>
+  <button class="my-custom-class">Test postcss-nested</button>
+  <button class="my-custom-tailwind-class">Test tailwind with postcss-nested</button>
 </div>
 
 <div class="py-12 bg-white">

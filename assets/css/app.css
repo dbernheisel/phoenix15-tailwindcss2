@@ -1,15 +1,18 @@
 /* This file is for your main application css. */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "custom.css";
 
 @layer components {
-  .my-custom-class {
+  .my-custom-tailwind-class {
     @apply bg-indigo-700 text-white font-bold py-2 px-4 rounded;
   }
 }
 
-@import "./custom.scss";
+.my-custom-class {
+  background-color: green;
+}
 
 /* Alerts and form errors */
 .alert {
